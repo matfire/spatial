@@ -1,9 +1,9 @@
 package main
 
 import (
-	"coord-converter/server"
 	"flag"
 	"fmt"
+	"github.com/matfire/spatial/server"
 	"log/slog"
 	"net/http"
 	"os"

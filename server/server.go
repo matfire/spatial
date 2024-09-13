@@ -1,9 +1,9 @@
 package server
 
 import (
-	"coord-converter/convert"
-	"coord-converter/types"
 	"encoding/json"
+	"github.com/matfire/spatial/convert"
+	"github.com/matfire/spatial/types"
 	"io"
 	"log/slog"
 	"net/http"

@@ -1,7 +1,7 @@
 package convert
 
 import (
-	"coord-converter/types"
+	"github.com/matfire/spatial/types"
 	"github.com/twpayne/go-proj/v10"
 	"log/slog"
 )
