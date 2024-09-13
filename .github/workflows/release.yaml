@@ -19,6 +19,12 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version: stable
+
+      - name: install proj
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: libproj-dev
+          version: 1.0
       - name: run goreleaser
         uses: goreleaser/goreleaser-action@v6
         with:
